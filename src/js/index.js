@@ -7,6 +7,7 @@ let circle = s.circle(200, 200, 200); // centerOfTheCircle - x, y, radius
 circle.attr({
     fill: '#00ff00',
     stroke: '#000',
+    strokeWidth: 4,
 });
 // let rect = s.rect(200, 0, 200, 200); // x, y point to the top left corner
 
