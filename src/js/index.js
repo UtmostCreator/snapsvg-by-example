@@ -8,3 +8,7 @@ let roof = s.polygon(75, 200, 325, 200, 200, 50);
 base.attr({
     fill: 'red',
 });
+
+roof.attr({
+    fill: 'red',
+});

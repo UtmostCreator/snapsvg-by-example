@@ -4,4 +4,6 @@ h1 {
 
 svg {
     border: 1px dashed black;
+    display: block;
+    margin: 0 auto;
 }
