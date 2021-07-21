@@ -9,4 +9,6 @@ let house = s.group(base, roof);
 
 house.attr({
     fill: 'red',
+    stroke: 'black',
+    strokeWidth: 4
 });
