@@ -9,4 +9,8 @@ let s = Snap(400, 400); // paper - working area
 
 // let ellipse = s.ellipse(200, 200, 100, 200); // x, y, w, h
 // let roundRect = s.rect(0, 0, 400, 400, 10, 50); // xPos, yPos, h, w, angleOneRoundness, andgeTwoRoundness
-let roundRect = s.rect(0, 0, 400, 400, 50); // xPos, yPos, h, w, angleOneRoundness, andgeTwoRoundness
+// let roundRect = s.rect(0, 0, 400, 400, 50); // xPos, yPos, h, w, angleOneRoundness, andgeTwoRoundness
+let line = s.line(0, 0, 400, 400);
+line.attr({
+    stroke: '#F00'
+});
