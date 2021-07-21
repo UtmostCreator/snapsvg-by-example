@@ -3,9 +3,9 @@ console.log('index is ready');
 // NOTE: windos.onload is required if you put the snapsvg in the header;
 // base snapsvg obj
 let s = Snap(400, 400); // paper - working area
-let circle = s.circle(200, 200, 200); // centerOfTheCircle - x, y, radius
+let circle = s.circle(200, 200, 150); // centerOfTheCircle - x, y, radius
 circle.attr({
-    fill: '#00ff00',
+    fill: 'transparent',
     stroke: '#000',
     strokeWidth: 4,
 });
