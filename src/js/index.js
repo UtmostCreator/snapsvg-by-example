@@ -15,3 +15,10 @@ house.attr({
 
 let chimney = s.rect(135, 75, 20, 70);
 house.add(chimney);
+
+/*
+to scale - s.5
+to translate - t100,0 // sFrom,to
+to rotate - r45 // sFrom,to
+*/
+house.transform('s0.5'); // by default svg obj is scaled from the center
