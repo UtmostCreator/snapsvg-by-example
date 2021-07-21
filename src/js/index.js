@@ -12,3 +12,6 @@ house.attr({
     stroke: 'black',
     strokeWidth: 4
 });
+
+let chimney = s.rect(135, 75, 20, 70);
+house.add(chimney);
