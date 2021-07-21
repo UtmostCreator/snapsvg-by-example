@@ -23,4 +23,4 @@ to rotate - r45 // sFrom,to
 */
 // house.transform('s0.5,0,0'); // by default svg obj is scaled from the center
 // chimney.transform('t100,100'); // by default svg obj is scaled from the center
-chimney.transform('r45'); // by default svg obj is scaled from the center
+house.transform('r45,0,0'); // by default svg obj is scaled from the center
