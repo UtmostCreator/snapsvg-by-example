@@ -7,4 +7,4 @@ let s = Snap(400, 400); // paper - working area
 // let rect = s.rect(200, 0, 200, 200); // x, y point to the top left corner
 
 
-let ellipse = s.ellipse(200, 200, 200, 100); // x, y, w, h
+let ellipse = s.ellipse(200, 200, 100, 200); // x, y, w, h
